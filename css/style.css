@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display:flex;
+    padding:5px 0;
+    background:#000;
+    align-items:center;
+}
+
+.carousel-container {
+    width:100%;
+    background: #000;
+    overflow:hidden;
+}
+
+.carousel-slide {
+    display:flex;
+}
+
+.carousel-image {
+    width: calc(100% / 3);
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: #fff;
+    background: #000;
+    text-transform:uppercase;
+}
+
+button:focus{
+    outline:0;
+}
